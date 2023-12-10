@@ -9,16 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@loaders.gl/3d-tiles": "^4.0.4",
-    "@loaders.gl/core": "^4.0.4",
-    "deck.gl": "^8.9.33",
+    "@deck.gl/core": "^8.9.33",
+    "@deck.gl/extensions": "^8.9.33",
+    "@deck.gl/geo-layers": "^8.9.33",
+    "@deck.gl/layers": "^8.9.33",
+    "@deck.gl/mapbox": "^8.9.33",
+    "@deck.gl/mesh-layers": "^8.9.33",
+    "@loaders.gl/3d-tiles": "^3.4.14",
     "maplibre-gl": "^3.6.2",
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@types/react": "18.2.43",
     "eslint": "^8",
-    "eslint-config-next": "14.0.4"
+    "eslint-config-next": "14.0.4",
+    "typescript": "5.3.3"
   }
 }
